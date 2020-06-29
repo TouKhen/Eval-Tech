@@ -200,7 +200,7 @@ header p{
 
 .darken{
     margin-left: 7px;
-    background-color: #252525;
+    background-color: var(--red);
     color: #fff;
     border: 3px solid var(--red);
     font-size: 15px;
