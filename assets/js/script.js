@@ -24,7 +24,8 @@ function showMoreCards(){
             // Cards image
             let div2 = document.createElement("div");
             let img = document.createElement("img");
-            img.src = "assets/img/pic" + [i] + ".png";
+            img.src = "assets/img/pic" + i + ".png";
+            img.alt = "pic" + i;
             div1.appendChild(div2);
             div2.appendChild(img);
 
@@ -97,3 +98,7 @@ function showAllCards(){
         showMoreCards();
     }
 }
+
+// Carousel
+
+let bigImg = document.getElementById("bigImg");

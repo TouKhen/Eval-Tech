@@ -1,3 +1,4 @@
+/* CSS Global */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
@@ -169,6 +170,63 @@ header p{
     min-width: 174px;
     margin: 0 auto;
     transition: 0.3s ease-in;
+}
+
+/* Other Pages */
+
+.big-card{
+    width: 100%;
+    overflow: hidden;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.big-card div:first-child{
+    width: 50%;
+    border-radius: 10px 10px;
+    overflow: hidden;
+}
+
+.big-card div:first-child img{
+    width: 100%;
+    border-radius: 10px 10px;
+}
+
+.big-card div:first-child div:first-child{
+    width: 100%;
+}
+
+.big-card div:first-child div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+.big-card div:first-child div:nth-child(2) img{
+    width: 20%;
+}
+
+.big-card div:nth-child(2) p:first-child{
+    color: #3c3c3c;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.big-card div:nth-child(2) p:nth-child(2){
+    color: #797979;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.big-card div:nth-child(2) p:nth-child(3){
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px auto 21px;
+    font-family: 'Helvetica', sans-serif;
 }
 
 /* Animation */
