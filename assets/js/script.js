@@ -3,6 +3,7 @@ let cardsC = document.getElementsByClassName("cards-container");
 let button = document.getElementsByTagName("button");
 btn1 = button[0];
 btn2 = button[1];
+let counter = 0;
 
 // Events Listener
 btn1.addEventListener('mousedown', showMoreCards);
@@ -10,6 +11,7 @@ btn2.addEventListener('mousedown', showAllCards);
 
 // Functions
 function showMoreCards(){
+    counter++;
     for (let i = 1; i <= 6; i++){
         // For creating cards
         let a = document.createElement("a");
