@@ -168,6 +168,10 @@ button:hover{
     color: var(--red);
 }
 
+button:focus{
+    outline-color: unset;
+}
+
 header, .container, .cards{
     animation: 1s spawn;
 }
