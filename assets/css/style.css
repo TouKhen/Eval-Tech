@@ -198,6 +198,17 @@ header p{
     width: 100%;
 }
 
+.darken{
+    margin-left: 7px;
+    background-color: #252525;
+    color: #fff;
+    border: 3px solid var(--red);
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    border-radius: 5px 5px 0 0;
+}
+
 .big-card div:first-child div:nth-child(2){
     display: flex;
     flex-direction: row;
@@ -243,7 +254,7 @@ button:hover{
 }
 
 button:focus{
-    outline-color: unset;
+    outline-color: var(--red);
 }
 
 header, .container, .cards{
