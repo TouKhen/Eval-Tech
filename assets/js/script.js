@@ -18,7 +18,7 @@ function showMoreCards(){
             let a = document.createElement("a");
             let div1 = document.createElement("div");
             div1.className = "cards";
-            a.href = "#";
+            a.href = "assets/pages/appart1.html";
             a.appendChild(div1);
 
             // Cards image
