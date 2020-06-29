@@ -16,10 +16,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg3.jpg");
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    opacity: 0.95;
 }
 
 a{
@@ -214,8 +215,12 @@ header p{
     flex-direction: row;
 }
 
-.big-card div:first-child div:nth-child(2) img{
+.big-card div:first-child div:nth-child(2) a{
     width: 20%;
+}
+
+.big-card div:first-child div:nth-child(2) img{
+    width: 100%;
 }
 
 .big-card div:nth-child(2) p:first-child{
