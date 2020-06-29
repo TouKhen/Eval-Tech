@@ -98,7 +98,3 @@ function showAllCards(){
         showMoreCards();
     }
 }
-
-// Carousel
-
-let bigImg = document.getElementById("bigImg");
