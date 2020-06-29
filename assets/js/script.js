@@ -14,7 +14,7 @@ btn2.addEventListener('mousedown', showAllCards);
 function showMoreCards(){
     if (counter <= maxcounter) {
         for (let i = 0; i <= 5; i++) {
-            let cards = document.getElementsByClassName("cards");
+            let cards = document.getElementsByClassName("a-cards");
             let cln = cards[i].cloneNode(true);
             cardsC[0].appendChild(cln);
         }
